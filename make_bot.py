@@ -26,7 +26,7 @@ def start(message):
 
 @bot.message_handler(content_types=['text'])
 def unknown(message):
-    bot.send_message(message.chat.id, "Sorry, I didn't get you. Let I show you my two main options, mate.")
+    bot.send_message(message.chat.id, "Sorry, I didn't get you. Let me show you my two main options, mate.")
     start(message)
 
 
